@@ -1,0 +1,35 @@
+.side-bar{
+  width: 200px;
+  height: 100vh;
+  background-color: red;
+}
+
+.header{
+    height: 75px;
+    width: 200px;
+    background-color: #FFFFCC;
+    font-size: 35px;
+    
+  }
+
+  .menu{
+    height: 400px;
+    width: 200px;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 40px 10px;
+    
+  }
+    .ul{
+      margin-bottom: 15px;
+    }
+    .nenu-box{
+      
+    }
+
+  .history{
+    height: calc(100% - 475px);
+    width: 200px;
+    background-color: #EEEEEE;
+  }
+
