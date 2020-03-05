@@ -1,0 +1,49 @@
+.side-bar{
+  width: 200px;
+  height: 100vh;
+  background-color: red;
+}
+
+.header{
+    height: 75px;
+    width: 200px;
+    background-color: #FFFFCC;
+    font-size: 35px;
+    
+  }
+
+  .menu{
+    height: 400px;
+    width: 200px;
+    background-color: #FFFFEE;
+    font-size: 20px;
+    padding: 70px 10px;
+    
+  }
+    
+    .nenu-box{
+      height: 98%;
+      width: 190px;
+      background-color:#FFFFEE;
+    }
+    .menu-box li{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+  .history{
+    height: calc(100% - 475px);
+    width: 200px;
+    background-color: #EEEEEE;
+    padding-top: 5px;
+  }
+    .history-box{
+      height: 98%;
+      width: 190px;
+      
+      background-color: #FFFFEE;
+      margin: auto;
+    }
+
