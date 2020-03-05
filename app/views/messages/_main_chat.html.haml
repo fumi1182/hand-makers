@@ -3,11 +3,19 @@
     .center-header
       hand-makers
     .form
-      検索
+      %form.new_meessage
+        .input-box
+          %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+          %label{class: "input-box__image"}
+            = icon('fa', 'image')
+            %input{type: "file", class: "input-box__image__file"}
+        %input{type: "submit", class: "submit-btn"}  
     .posts
       投稿一覧
   .right-contents
     .right-header
+      .user-name
+        ユーザー名：佐藤さん
     .favo-users
       お気に入りユーザー
     .favo-posts
